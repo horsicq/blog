@@ -1,1 +1,1 @@
-# blog
+https://horsicq.github.io/blog/
