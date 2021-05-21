@@ -1,4 +1,4 @@
-![]({{ site.baseurl }}/images/2021-05-21-XMachOViewer 0.01/XMachOViewer.png)
+![]({{ site.baseurl }}/images/2021-05-21-XMachOViewer 0.01/xmachoviewer.png)
 
 **XMachOViewer** - MachO file viewer/editor for Windows, Linux and MacOS.
 
