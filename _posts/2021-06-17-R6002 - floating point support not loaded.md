@@ -11,10 +11,10 @@ R6002
 
 - floating point support not loaded
 ```
+ 
+There is some info in UPX sources: [https://github.com/upx/upx/blob/8d42b12117130b944023335cc2b76072c145db4d/src/p_w32pe.cpp#L200](https://github.com/upx/upx/blob/8d42b12117130b944023335cc2b76072c145db4d/src/p_w32pe.cpp#L200)
 
-There is some info in UPX sources: https://github.com/upx/upx/blob/8d42b12117130b944023335cc2b76072c145db4d/src/p_w32pe.cpp#L200
-
-```
+```cpp
 // This works around a "protection" introduced in MSVCRT80, which
 // works like this:
 // When the compiler detects that it would link in some code from its
@@ -33,7 +33,7 @@ There is some info in UPX sources: https://github.com/upx/upx/blob/8d42b12117130
 
 **This code raises the Exceptions:**
 
-```
+```assembly
 .xvlk:0045A560 __IsNonwritableInCurrentImage proc near ; CODE XREF: __except_handler4+FF p
 .xvlk:0045A560                                         ; __cinit+E p
 .xvlk:0045A560                                         ; __cinit+79 p
@@ -104,4 +104,4 @@ if(pDumpOptions->bPatchNWError6002)
 }
 ```
         
-Discussions on Exetools.com about the exception: https://forum.exetools.com/showthread.php?t=15330
+Discussions about the exception: [https://forum.exetools.com/showthread.php?t=15330](https://forum.exetools.com/showthread.php?t=15330)
