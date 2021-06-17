@@ -1,6 +1,6 @@
 Sometimes we can unpack protected executables in Windows but there is a runtime error
 
-```
+```assembly
 Microsoft Visual C++ Runtime Library
 
 Runtime Error!
@@ -14,7 +14,7 @@ R6002
  
 There is some info in UPX sources: [https://github.com/upx/upx/blob/8d42b12117130b944023335cc2b76072c145db4d/src/p_w32pe.cpp#L200](https://github.com/upx/upx/blob/8d42b12117130b944023335cc2b76072c145db4d/src/p_w32pe.cpp#L200)
 
-```cpp
+```assembly
 // This works around a "protection" introduced in MSVCRT80, which
 // works like this:
 // When the compiler detects that it would link in some code from its
@@ -84,7 +84,7 @@ There is some info in UPX sources: [https://github.com/upx/upx/blob/8d42b1211713
 
 **I am using the trick in my projects to fix it**
 
-```cpp
+```assembly
 if(pDumpOptions->bPatchNWError6002)
 {
     //   004947D5  |.  8B40 24                      MOV EAX,DWORD PTR DS:[EAX+24]
