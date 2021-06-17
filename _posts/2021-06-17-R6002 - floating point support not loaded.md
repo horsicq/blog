@@ -31,7 +31,7 @@ There is some info in UPX sources: [https://github.com/upx/upx/blob/8d42b1211713
 // PEFL_WRITE of osection[x].flags), and make it ro again.
 ```
 
-**This code raises the Exceptions:**
+**This code raises the exception:**
 
 ```assembly
 .xvlk:0045A560 __IsNonwritableInCurrentImage proc near ; CODE XREF: __except_handler4+FF p
