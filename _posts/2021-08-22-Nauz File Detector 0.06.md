@@ -1,6 +1,6 @@
 ![]({{ site.baseurl }}/images/2021-08-22-Nauz File Detector 0.06/nfd.png)
 
-Nauz File Detector** is a portable linker/compiler/packer identifier ut**ility for OSX, Linux and Windows.
+**Nauz File Detector** is a portable linker/compiler/packer identifier utility for OSX, Linux and Windows.
 
 Version 0.06
 
