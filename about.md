@@ -9,3 +9,5 @@ permalink: /about/
 [horsicq@gmail.com](mailto:horsicq@gmail.com)
 
 Telegram: *@horsicq*
+
+Twitter: https://twitter.com/horsicq
